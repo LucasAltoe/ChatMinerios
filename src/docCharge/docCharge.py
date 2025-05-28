@@ -1,17 +1,16 @@
 from docling.document_converter import DocumentConverter
-import os
+from pathlib import Path
 import logging
 
 logging.basicConfig(level=logging.INFO)
-converter  = DocumentConverter()
+converter = DocumentConverter()
 
-source = os.path.abspath('../../data/raw')
-processed_dir = os.path.abspath('../../data/processed/markdown')
-
+source_raw_dir = Path('../../data/raw').resolve()
+processed_dir = Path('../../data/processed/markdown').resolve()
 
 def is_dir_empty(dir_path):
     try:
-        return len(os.listdir(dir_path)) == 0
+        return not any(Path(dir_path).iterdir())
     except FileNotFoundError:
         print(f"Erro: Pasta '{dir_path}' não encontrada")
         return True
@@ -19,25 +18,24 @@ def is_dir_empty(dir_path):
         print(f"Erro: Sem permissão para acessar '{dir_path}'")
         return False
 
-if is_dir_empty(source):
-    logging.info(f"A pasta {source} está vazia!")
+if is_dir_empty(source_raw_dir):
+    logging.info(f"A pasta {source_raw_dir} está vazia!")
 else:
-    logging.info(f"A pasta {source} contém arquivos")
+    logging.info(f"A pasta {source_raw_dir} contém arquivos")
 
-for document in os.listdir(source):
-    if document.endswith(".pdf"):
-        full_path_document = os.path.join(source, document)
+for document in source_raw_dir.iterdir():
+    if document.suffix.lower() == ".pdf":
         try:
-            result = converter.convert(full_path_document)
-            logging.info(f"Convertido: {document} -> {result}")
+            result = converter.convert(document)
+            logging.info(f"Convertido: {document.name} -> {result}")
 
             markdown_content = result.document.export_to_markdown()
-            output_markdown_path = os.path.join(processed_dir, f"{os.path.splitext(document)[0]}.md")
+            output_markdown_path = processed_dir / f"{document.stem}.md"
 
-            with open(output_markdown_path, 'w') as f:
+            with output_markdown_path.open('w') as f:
                 f.write(markdown_content)
-            
+
             logging.info(f"Arquivo salvo: {output_markdown_path}")
 
         except Exception as e:
-            logging.error(f"Erro ao converter {document} -> {str(e)}")
+            logging.error(f"Erro ao converter {document.name} -> {str(e)})")

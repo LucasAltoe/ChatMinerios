@@ -1,0 +1,3 @@
+sem clivagem, pode apresentar clivagem muito ruim raramente observável (mesmo em seção delgada), em  {10 1},  {01 1},  {10 0}  e  partição  romboédrica  (a  deformação  experimental  de  quartzo  a  450º  e  4.000
+
+atmosferas dá origem a fragmentos de clivagem romboédricos ou prismáticos); fratura: conchoidal; quebradiço; Dureza: 7,  variável  pela  direção  e  forma;  densidade  relativa:  2,65  g/cm 3 ,  2,59-2,63  g/cm 3   quando  maciço;  piezoelétrico  e piroelétrico,  pode  ser  triboluminescente.  Transparente a quase opaco; incolor ou branco, pode ser também púrpura, preto, cinza, leitoso, amarelo, marrom, azul, etc, devido a composição química ou a inclusões; cor do traço: branco; brilho: vítreo, graxo a fosco quando maciço.

@@ -1,0 +1,3 @@
+na  estrutura  da  turmalina  cada  tetraedro  SiO4  está  unido  a  dois  outros  tetraedros  SiO4,  através  do compartilhamento de átomos de oxigênio localizados nos vértices do tetraedro, de modo a formar um anel com seis tetraedros  (Si6O18) 12- .  Estes  anéis  ocorrem  dispostos  perpendicularmente  ao  eixo 'c ' e  todos  com  os  vértices apontando para a mesma direção. Os anéis Si6O18 são unidos lateralmente e verticalmente na estrutura através de átomos de Al e Fe em coordenação 6 (octaedros). Os átomos de B, ocorrem em coordenação 3 (planar), e os átomos maiores, como o Na, ocorrem em coordenação 9, localizados no 'centro dos anéis Si6O18'.
+
+(Al,Fe, etc.)

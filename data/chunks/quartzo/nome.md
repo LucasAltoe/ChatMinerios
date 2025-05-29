@@ -1,0 +1,3 @@
+QUARTZO (quartz)  -  Mineral  do  Grupo  dos  Tectossilicatos.  Grupo  do  Quartzo  e/ou  Sílica.  Polimorfo  da  tridimita, cristobalita, coesita e stishovita. SiO2. Termo de origem incerta, proveniente da palavra alemã quarz .
+
+Cristalografia: Trigonal,  classe  trapezoédrica-trigonal  (32)  (quartzo- ),  e  Hexagonal, classe trapezoédrica-hexagonal (quartzo- ). Grupo espacial e malha unitária: quartzo- : P 3121 ou P 3221, ao = 4,9135Å, co = 5,4050Å, Z = 3. quartzo - : n.d., ao = 5,010Å, co = 5,470Å, Z = n.d.

@@ -1,0 +1,3 @@
+a  estrutura  do  quartzoα consiste  em  uma  rede  tridimensional  de  tetraedros  SiO4.  A  distribuição  dos tetraedros, comparando com a estrutura da quartzoβ , é menos regular e os tetraedros estão deslocados relativamente à suas posições ideais. A transformação de quartzo-  quartzo- não envolve nenhum rompimento das ligações Si-O e ocorre por movimentos atômicos relativamente pequenos. Em relação aos polimorfos tridimita e cristobalita, o quartzo apresenta uma estrutura mais densa. As diferenças nos parâmetros de malha unitária do quartzo, estão relacionadas a presença de átomos estranhos na estrutura (impurezas).
+
+http://webmineral.com/jpowd/JPX/jpowd.php?target\_file=Quartz.jpx#.WW5wEOSouUk).

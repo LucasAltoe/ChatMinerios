@@ -1,2 +1,7 @@
 docling
 pandas
+unidecode
+langchain
+openai
+faiss-cpu
+tiktoken
